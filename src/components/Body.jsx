@@ -19,6 +19,7 @@ export default function Body() {
   const [valB, setB] = useState(0);
 
   const reset = () => {
+    alert("The game is Restared now");
     setA(init);
     setB(init);
   };
